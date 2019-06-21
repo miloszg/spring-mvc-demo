@@ -7,6 +7,10 @@
 
 	The customer is confirmed: ${customer.firstName} ${customer.lastName} 
 	<br />
+	Free passes: ${customer.freePasses}
+	<br />
+	Postal code: ${customer.postalCode}
+	
 	<%-- From: ${student.country}
 	<br />
 	Favourite programming language: ${student.favoriteLanguage }
@@ -17,6 +21,7 @@
 			<li>${temp}</li>
 		</c:forEach>
 	</ul> --%>
+	
 </body>
 
 </html>
